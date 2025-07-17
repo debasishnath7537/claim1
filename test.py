@@ -319,7 +319,7 @@ def main():
 
             # Display a loading spinner
             with st.spinner("Processing claim..."):
-                json_file = "test.json"
+                json_file = "/test.json"
                 try:
                     result = process_claim(json_file, temp_files["audio"], temp_files["policy"], temp_files["purchase"], temp_files["location"])
 
