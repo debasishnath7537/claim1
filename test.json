@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM123456789",
+  "customer": {
+    "first_name": "Emma",
+    "last_name": "Watson",
+    "dob": "15 April 1989",
+    "policy_number": "LBGP 098765",
+    "customer_id": "CUST000123",
+    "contact_number": "+44 7700 900123",
+    "email": "emma.watson@example.com"
+  },
+  "incident_details": {
+    "incident_type": "Theft",
+    "incident_date": "2025-06-20",
+    "report_date": "2025-07-07 08:59:57",
+    "location": "Regent Street London, UK",
+    "description": "Mobile phone was stolen on the London Underground during commute. Item was in bag and went missing between two stations."
+  },
+  "claim_submission": {
+    "channel": "Voice Call",
+    "voice_sample_path": "D:/Claim/Good.mp3"
+  },
+  "document_verification": {
+    "insurance_policy": {
+      "expected_policy_number": "LBGP 098765",
+      "expected_customer_name": "Emma Watson",
+      "expected_issue_date": "10 October 2024",
+      "expected_device_model": "iPhone 14 Pro",
+      "expected_imei_number": "353994117274619",
+      "expected_serial_number": "SN987654321",
+      "expected_date_registered": "02 October 2024"
+    },
+    "purchase_receipt": {
+      "expected_item": "iPhone",
+      "expected_purchase_date": "02 October 2024",
+      "expected_store": "Apple Store, Regent Street",
+      "expected_amount": "1099.00",
+      "expected_imei_number": "353994117274619",
+      "expected_customer_name": "Emma Watson"
+    }
+  }
+}
